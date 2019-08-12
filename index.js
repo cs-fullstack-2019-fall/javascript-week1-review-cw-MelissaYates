@@ -21,7 +21,7 @@ while (userInput!=='q')
         {
             var userInput = parseInt(prompt("What would you like to count up to?"));
             console.log(userInput);
-            for(x=0; x>userInput; x++)
+            for(x=0; x<userInput; x++)
             {
                 console.log(x);
                 userInput++;
